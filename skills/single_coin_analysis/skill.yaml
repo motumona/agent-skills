@@ -1,0 +1,22 @@
+name: single_coin_analysis
+title: Single coin analysis
+description: Give one integrated analysis for a single coin the user names, ending in a firm verdict with entry, stop, targets and a 15 minute execution plan.
+category: Finance
+include_in_prompt: false
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - '~/MEMORY.md: ATURAN ANALISA KOIN 2026-11-11'
+  - message:assistant-msg-81bd182d ($OPEN integrated analysis)
+  - message:assistant-msg-92822844 ($ONDO integrated analysis)
+  - message:assistant-msg-d07db3b9 ($LIT setup voided 11 Nov)
+  measurement:
+    proxy_metric_id: objective_success_rate
+    success_criterion: In 30 days, sampled single-coin analyses follow the 1D, 4H, 1H and 15m structure with CoinGlass, honest whale reporting, CoinGecko facts and a firm verdict with entry, stop, targets and invalidation, with no invented whale data and no order placed.
+    window_days: 30
+  needs_review: false
+  rationale: 'The user adopted the integrated single-coin format as a standing rule on 11 Nov 2026 in MEMORY.md ATURAN ANALISA KOIN and it was applied to $OPEN and $ONDO in the window, yet it lives only in MEMORY.md. A skill search for coin analysis, CoinGlass, whale verdict and entry stop loss returned no relevant skill, so the format can drift or be dropped in later sessions. The $LIT void on 11 Nov shows the format also needs the replace-a-voided-plan rule codified. The skill teaches the reusable method without copying user facts or placing orders. Other candidates were rejected: the Arkham and Whale Alert free-tier correction and the Sidecoo presale time and quota correction were single corrections already recorded in the alignment synthesis and handled by scheduling both checks, the deterministic memory recurring failures and suppressed handoffs are objective-loop mechanics rather than a skill-addressable method, and the 120 tool failures carry no repeated pattern with a named missing instruction.'
+  review_after: 2026-12-11T08:46:02.285728+00:00
+  reviewed_at: 2026-11-11T08:46:02.285728+00:00
+  run_id: sirun_ed3ea660887f4ce49757802b0c6ab28d

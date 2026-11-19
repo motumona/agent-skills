@@ -1,0 +1,5 @@
+# Format: nama domain1 domain2 ...
+# Satu proyek per baris. Dipakai scam_check.py --project NamaProyek untuk
+# memastikan URL yang dicek memang domain resmi proyek itu.
+# Baris yang diawali # diabaikan.
+# Contoh: nama-proyek situs-resmi.com

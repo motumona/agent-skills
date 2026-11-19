@@ -1,0 +1,25 @@
+name: web3_preview_receipt_check
+title: Web3 preview and receipt check
+description: Verify a short-lived wallet preview and its on-chain receipt before reporting a Web3 result.
+category: Finance
+include_in_prompt: false
+skill_improvement:
+  managed: true
+  status: active
+  measurement:
+    proxy_metric_id: objective_success_rate
+    success_criterion: In 30 days, no sampled wallet send is attempted to an all-lowercase address or to a recipient not confirmed in the Binance address book, and no sampled report presents a cap as an available balance, a total count as a paid count, or a simulated figure as a confirmed one.
+    window_days: 30
+  rationale: 'Two BNB sends on 12 Nov failed on the same two preflight gaps (all-lowercase recipient rejected INVALID_ADDRESS code 20003002, and recipient not in the Binance address book, SERVICE_ERROR code 351703), first for a $0.2 send and then again for a $0.1 send to a different address (messages f996a298, 3c205493, 1418d210). The lesson lives only in AGENTS.md, and the managed web3 execution skill has no descriptor to update, while the managed preview skill covers calldata, fees, floor matching and receipt verification but never covers send preflight. In the same window two reported figures used the wrong label: a sweep reported paid shares as 2,904 of 5,000 when on-chain verification showed paid was 2 of 5,000 and 2,904 was the total including free (messages 37455eba, 5d6f11a2), and a Router allowance of $1.00 was reported as available when $1.00 was the daily cap and the available balance was $0.00 (message ec2867cf). The preview skill already covers simulated versus receipt figures (ONLYAI #2466 simulated versus #2470 on receipt, message bb5a0c55), so extending the same skill with a send preflight section and a what-a-number-counts section closes both gaps in the one managed document that already governs Web3 verification. Rejected as separate or moot: tab-close hygiene (a MEMORY rule already in prompt did not change behaviour and main-window tabs are outside tool reach, so a skill would not change the outcome), the scheduled X sweep cloud-login gap (a platform session limit, not a missing instruction), safe long cron-body edits (already documented in AGENTS.md), absence-of-evidence reminders (single instance overlapping blocked_task_honesty, still inside its measurement window to 2026-12-12), and futures-scanner weak signals (the scanner was disabled by user order on 13 Nov 10:00 WIB).'
+  review_after: 2026-12-13T10:08:24.163936+00:00
+  reviewed_at: 2026-11-13T10:08:24.163936+00:00
+  run_id: sirun_ad0bfe6657824ca2b196d8b6d8fbfab9
+  evidence_handles:
+  - '~/AGENTS.md: baw wallet send lesson 2026-11-12'
+  - message:f996a298
+  - message:3c205493
+  - message:1418d210
+  - message:5d6f11a2
+  - message:ec2867cf
+  - message:bb5a0c55
+  needs_review: false

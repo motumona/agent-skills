@@ -1,0 +1,20 @@
+name: makefun_entry_checks
+title: Build make.fun entries the checker accepts
+description: Build and submit a make.fun bounty entry so the session authorship and grader checks pass, when a competition is open.
+category: Work and knowledge
+include_in_prompt: false
+skill_improvement:
+  managed: true
+  status: active
+  measurement:
+    proxy_metric_id: objective_success_rate
+    success_criterion: In 30 days, sampled make.fun submissions show no recording lost to an rsync, cp, clone or download import, thinking_reproduces at least 30 percent, and no submission blocked or discarded solely on a local thinking_priced or transcripts_run_record failure when the seal carries the usage rows and the run record.
+    window_days: 30
+  rationale: gta6-01 round 3 failed thinking_reproduces at 27.3 percent after the builder ran rsync twice and 2234 lines counted as read, and round 4 failed at 29.5 percent after the recorder died and one builder went unrecorded. Round 5 passed at 32.6 percent and the server accepted the submission (HTTP 202) even though the local check failed thinking_priced and transcripts_run_record, because those local failures are artefacts for a Muse session and the seal carried the usage rows and the run record. The current makefun_entry_checks skill tells the builder to rewrite files fresh and to submit only after zero check failures, but it never forbids import commands during recording and never qualifies those two local failures, so a later build can repeat both losses. The update adds the import ban, the recorded-builder check, and the artefact exception, and leaves the rest of the skill unchanged.
+  evidence_handles:
+  - ~/memory/groups/make-fun.md
+  - ~/AGENTS.md
+  needs_review: false
+  review_after: 2026-12-18T06:57:14.847802+00:00
+  reviewed_at: 2026-11-18T06:57:14.847802+00:00
+  run_id: sirun_663ac750251c4e65a0a19eff63c259ec

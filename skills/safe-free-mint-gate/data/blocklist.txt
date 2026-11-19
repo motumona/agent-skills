@@ -1,0 +1,3 @@
+# Satu domain per baris. Domain di sini selalu verdict block di scam_check.py.
+# Baris yang diawali # diabaikan.
+# Tambah lewat: python3 scripts/scam_check.py --add-block domain-penipu.com

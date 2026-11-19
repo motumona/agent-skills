@@ -1,0 +1,23 @@
+name: verify_before_reporting
+title: Verify worker results before reporting them
+description: Re-check delegated, browser and scheduled-job results from a live source before reporting them, and label anything unrechecked as unverified.
+category: Work and knowledge
+include_in_prompt: false
+skill_improvement:
+  managed: true
+  status: active
+  measurement:
+    proxy_metric_id: objective_success_rate
+    success_criterion: In 30 days, sampled reports that forward delegated, browser-task or scheduled-job results show an independent live re-check of the key figures or an explicit unverified label, with no sampled report presenting a worker figure as verified without that re-check.
+    window_days: 30
+  rationale: 'On 16 Nov 2026 the assistant reported MyAgeApp spin and balance figures from a worker report without an independent check (assistant-msg-d4b4a151), and the user rebuked the pattern twice as a recurring habit (message:d472b7ee, message:3bc59f41). The assistant admitted forwarding the report and re-verified it (assistant-msg-d152b475), finding the balance correct but the Vault figure different. No managed skill covers this: blocked_task_honesty covers cannot-do statements only, and web3_preview_receipt_check covers on-chain receipts only. A narrow new skill requiring a live re-check or an explicit unverified label addresses the mechanism directly. The 17 Nov 00:25 flag of unverified AGE and Octos figures (assistant-msg-dc6f245c) shows the rule can be applied, but it lives only in MEMORY.md, where standing rules have drifted before.'
+  evidence_handles:
+  - assistant-msg-d4b4a151
+  - message:d472b7ee
+  - message:3bc59f41
+  - assistant-msg-d152b475
+  - assistant-msg-dc6f245c
+  needs_review: false
+  review_after: 2026-12-17T07:51:47.270172+00:00
+  reviewed_at: 2026-11-17T07:51:47.270172+00:00
+  run_id: sirun_0e99235a572a420399937738ae088b6b

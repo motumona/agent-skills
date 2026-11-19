@@ -1,0 +1,15 @@
+# Python cache / artefak build
+__pycache__/
+*.pyc
+*.pyo
+
+# Catatan kerja internal (jangan ikut commit)
+LOCAL-NOTES.md
+sweep-*.md
+
+# Riwayat git dari clone upstream (jangan ikut commit)
+.git/
+
+# Catatan sinkronisasi push (data lokal, bukan isi repo)
+*.muse-github-snapshot-sync.json
+*.muse-github-snapshot-sync.json.tmp-*

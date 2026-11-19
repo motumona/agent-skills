@@ -1,0 +1,25 @@
+name: device_browser_first
+title: Use the logged-in browser first
+description: Start logged-in browser work on the user's own device browser where the session already lives, and fall back to the cloud browser only when that device is unreachable.
+category: Work and knowledge
+include_in_prompt: false
+skill_improvement:
+  managed: true
+  status: active
+  measurement:
+    proxy_metric_id: objective_success_rate
+    success_criterion: In 30 days, sampled tasks that need a login start on the user's own device browser first when it is reachable, a cloud login or session failure is followed by a device attempt instead of another cloud retry, and no sampled report claims the device browser was tried when it was not.
+    window_days: 30
+  rationale: 'Three logged-in tasks in the 2026-11-13 to 2026-11-14 window failed first in the cloud browser and then succeeded on the user''s own device browser where the session already lived: MyAgeApp after a Telegram Web session expiry, the FAN SZN streak claim after a cloud login error, and Boxcars after a cloud login rate limit. A narrow device-first rule was adopted for bot work and MyAgeApp checks, but later tasks still started in the cloud, so the general routing rule needs a managed skill. A skill search returned no relevant skill. Other candidates were rejected as out of scope, already documented, single-instance, or user-disabled.'
+  review_after: 2026-12-14T08:05:44.694882+00:00
+  reviewed_at: 2026-11-14T08:05:44.694882+00:00
+  evidence_handles:
+  - message:assistant-msg-84d6bb0c-b4ba-ca4e-76a8-244c040e63c9
+  - message:assistant-msg-9bfc50c6-bd38-5743-dd9d-5136f318dc3a
+  - message:assistant-msg-46cc24e7-6763-3a67-5596-59615f277106
+  - message:assistant-msg-4d6d5e5a-f541-a538-637d-89c6e61e2c82
+  - message:assistant-msg-8548951b-320c-5698-8d32-2a078bc49acf
+  - message:assistant-msg-171a9d6a-bfaf-41c4-a0eb-72984f9e5762
+  - 6a8b8740-4f12-4769-8aa6-d3719d57f85e
+  needs_review: false
+  run_id: sirun_71caaf7820bd4930a440ba6155ca8baa

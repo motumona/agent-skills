@@ -1,0 +1,5 @@
+# Satu domain per baris. Domain di sini dianggap tepercaya oleh scam_check.py.
+# Baris yang diawali # diabaikan.
+# Daftar bawaan di script sudah mencakup BscScan, Element, MintRadar, Galxe,
+# PancakeSwap, Binance, dan domain besar lainnya; file ini hanya untuk tambahan.
+# Tambah lewat: python3 scripts/scam_check.py --add-trusted domain.com
