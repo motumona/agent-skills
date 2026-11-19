@@ -1,0 +1,1 @@
+CATATAN LISENSI (Muse, 18 Nov 2026): Repo vercel-labs/agent-skills tidak berisi file LICENSE. README repo (baris 214-216) menyatakan "License: MIT". Skill ini dipasang atas perintah motu dengan catatan ini.
