@@ -1,6 +1,6 @@
-# Sumber upstream — agent-skills (fase 1, snapshot 19 Nov 2026)
+# Sumber upstream — agent-skills (fase 1 + fase 2, snapshot 20 Nov 2026)
 
-Repo ini berisi 60 folder skill (fase 1). 9 folder di `skills/` adalah karya
+Repo ini berisi 61 folder skill (fase 1 + fase 2). 10 folder di `skills/` adalah karya
 Muse untuk motumona (MIT). 51 folder di `upstream/` adalah karya penulis lain
 yang didistribusikan ulang sesuai lisensinya — lisensi + copyright asli
 dipertahankan di tiap folder. Repo ini BUKAN mengklaim karya upstream
@@ -15,6 +15,7 @@ sebagai karya motumona.
 - `muse-web3-execution` — file lisensi di folder: —
 - `safe-free-mint-gate` — file lisensi di folder: —
 - `single_coin_analysis` — file lisensi di folder: —
+- `skripsi-iain-curup` — file lisensi di folder: —
 - `verify_before_reporting` — file lisensi di folder: —
 - `web3_preview_receipt_check` — file lisensi di folder: —
 
@@ -85,7 +86,5 @@ push teks dan diunggah terpisah lewat web UI GitHub ke path yang sama:
 
 ## Yang belum masuk (fase berikutnya)
 
-- Fase 2: `skripsi-iain-curup` — berisi nama asli + NIM motu; butuh
-  persetujuan terpisah darinya.
 - Fase 3: 22 folder yang lisensi/asalnya belum terverifikasi
   (6 upstream tanpa lisensi di file lokal + 16 asal tidak jelas).

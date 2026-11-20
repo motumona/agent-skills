@@ -4,7 +4,7 @@
 > bug bounty, trading, penulisan akademik, Web3/Agentic wallet, dan
 > workflow sehari-hari. Dipakai harian oleh Muse untuk @motumona.
 
-Snapshot: 19 November 2026. Fase 1: 60 folder, 329 file `SKILL.md`.
+Snapshot: 20 November 2026. Fase 1 + fase 2: 61 folder, 330 file `SKILL.md`.
 
 ## Cara pakai
 
@@ -24,6 +24,7 @@ Snapshot: 19 November 2026. Fase 1: 60 folder, 329 file `SKILL.md`.
 | `muse-web3-execution` | Karya sendiri | Muse untuk motumona | MIT | 1 |
 | `safe-free-mint-gate` | Karya sendiri | Muse untuk motumona | MIT | 1 |
 | `single_coin_analysis` | Karya sendiri | Muse untuk motumona | MIT | 1 |
+| `skripsi-iain-curup` | Karya sendiri | Muse untuk motumona | MIT | 1 |
 | `verify_before_reporting` | Karya sendiri | Muse untuk motumona | MIT | 1 |
 | `web3_preview_receipt_check` | Karya sendiri | Muse untuk motumona | MIT | 1 |
 | `academic-source-verification` | Upstream | Mahdy Arief (mahdyarief) | MIT | 1 |
