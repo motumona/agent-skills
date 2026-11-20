@@ -1,7 +1,7 @@
-# Sumber upstream — agent-skills (fase 1 + fase 2 + fase 3, snapshot 21 Nov 2026)
+# Sumber upstream — agent-skills (fase 1 + fase 2 + fase 3 + susulan 21 Nov 2026, snapshot 21 Nov 2026)
 
-Repo ini berisi 83 folder skill (fase 1 + fase 2 + fase 3). 10 folder di `skills/` adalah karya
-Muse untuk motumona (MIT). 73 folder di `upstream/` adalah karya penulis lain
+Repo ini berisi 86 folder skill (fase 1 + fase 2 + fase 3 + 3 susulan 21 Nov 2026). 12 folder di `skills/` adalah karya
+Muse untuk motumona (MIT). 74 folder di `upstream/` adalah karya penulis lain
 yang didistribusikan ulang sesuai lisensinya — lisensi + copyright asli
 dipertahankan di tiap folder. Repo ini BUKAN mengklaim karya upstream
 sebagai karya motumona.
@@ -23,6 +23,8 @@ Jangan anggap folder-folder itu karya motumona.
 - `skripsi-iain-curup` — file lisensi di folder: —
 - `verify_before_reporting` — file lisensi di folder: —
 - `web3_preview_receipt_check` — file lisensi di folder: —
+- `query-token-audit` — file lisensi di folder: — (susulan 21 Nov 2026)
+- `simular-x` — file lisensi di folder: — (susulan 21 Nov 2026)
 
 ## Upstream (`upstream/`)
 
@@ -47,6 +49,7 @@ Jangan anggap folder-folder itu karya motumona.
 - `humanizer` — MIT — lihat file LICENSE di folder — file lisensi di folder: LICENSE
 - `indo-journal-scouting` — MIT — Mahdy Arief (mahdyarief) — file lisensi di folder: LICENSE-upstream
 - `last30days` — MIT — mvanhorn/last30days-skill — file lisensi di folder: LICENSE
+- `make-fun` — MIT — make.fun / EZO Labs Inc. (https://make.fun/skill.md) — file lisensi di folder: — (susulan 21 Nov 2026; SKILL.md memuat catatan lokal Muse untuk motu)
 - `market-report` — MIT — CoinMarketCap — file lisensi di folder: LICENSE-upstream
 - `mcp-builder` — Apache-2.0 — Anthropic (anthropics/skills) — file lisensi di folder: LICENSE.txt
 - `mcp-server-pentest` — MIT — forefy — file lisensi di folder: LICENSE-upstream
@@ -124,8 +127,9 @@ motumona.
 - `test-driven-development` — asal tidak jelas, lisensi belum terverifikasi
 - `using-agent-skills` — asal tidak jelas, lisensi belum terverifikasi
 
-## Aset biner fase 3 (pending upload web UI)
+## Aset biner fase 3 (sudah diunggah via web UI)
 
 3 file GIF di `upstream/bountyforge/skills/pashov/static/` (`fizz.gif`,
 `skill_pag.gif`, `x_ray.gif`, masing-masing >1 MB) tidak bisa dikirim lewat
-push teks dan diunggah terpisah lewat web UI GitHub ke path yang sama.
+push teks dan diunggah terpisah lewat web UI GitHub ke path yang sama —
+SELESAI 21 Nov 2026 00:44 WIB, commit `d9e7710a`.

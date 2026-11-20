@@ -4,7 +4,7 @@
 > bug bounty, trading, penulisan akademik, Web3/Agentic wallet, dan
 > workflow sehari-hari. Dipakai harian oleh Muse untuk @motumona.
 
-Snapshot: 21 November 2026. Fase 1 + fase 2 + fase 3: 83 folder, 391 file `SKILL.md`.
+Snapshot: 21 November 2026. Fase 1 + fase 2 + fase 3 + susulan 21 Nov: 86 folder, 394 file `SKILL.md`.
 
 ## Cara pakai
 
@@ -27,6 +27,8 @@ Snapshot: 21 November 2026. Fase 1 + fase 2 + fase 3: 83 folder, 391 file `SKILL
 | `skripsi-iain-curup` | Karya sendiri | Muse untuk motumona | MIT | 1 |
 | `verify_before_reporting` | Karya sendiri | Muse untuk motumona | MIT | 1 |
 | `web3_preview_receipt_check` | Karya sendiri | Muse untuk motumona | MIT | 1 |
+| `query-token-audit` | Karya sendiri | Muse untuk motumona | MIT | 1 |
+| `simular-x` | Karya sendiri | Muse untuk motumona | MIT | 1 |
 | `academic-source-verification` | Upstream | Mahdy Arief (mahdyarief) | MIT | 1 |
 | `academic-writing` | Upstream | Joe Amditis | MIT | 1 |
 | `agentic-bug-hunter` | Upstream | Claude Bug Bounty Hunter Contributors (Awarexone/Agentic-Bug-Hunter) | MIT | 21 |
@@ -48,6 +50,7 @@ Snapshot: 21 November 2026. Fase 1 + fase 2 + fase 3: 83 folder, 391 file `SKILL
 | `humanizer` | Upstream | lihat file LICENSE di folder | MIT | 1 |
 | `indo-journal-scouting` | Upstream | Mahdy Arief (mahdyarief) | MIT | 1 |
 | `last30days` | Upstream | mvanhorn/last30days-skill | MIT | 1 |
+| `make-fun` | Upstream (susulan 21 Nov) | make.fun / EZO Labs Inc. (make.fun/skill.md) | MIT | 1 |
 | `market-report` | Upstream | CoinMarketCap | MIT | 1 |
 | `mcp-builder` | Upstream | Anthropic (anthropics/skills) | Apache-2.0 | 1 |
 | `mcp-server-pentest` | Upstream | forefy | MIT | 1 |
