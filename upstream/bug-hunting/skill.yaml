@@ -1,0 +1,5 @@
+name: bug-hunting
+title: Bug hunting
+description: Hunt real, reportable bugs with the Agentic Bug Hunter workflow, from scope and recon through the 7-Question Gate to a submission-ready report for the Ethereum Foundation, HyperLiquid and other bounty programs.
+category: Work and knowledge
+include_in_prompt: false
