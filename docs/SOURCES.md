@@ -1,10 +1,15 @@
-# Sumber upstream — agent-skills (fase 1 + fase 2, snapshot 20 Nov 2026)
+# Sumber upstream — agent-skills (fase 1 + fase 2 + fase 3, snapshot 21 Nov 2026)
 
-Repo ini berisi 61 folder skill (fase 1 + fase 2). 10 folder di `skills/` adalah karya
-Muse untuk motumona (MIT). 51 folder di `upstream/` adalah karya penulis lain
+Repo ini berisi 83 folder skill (fase 1 + fase 2 + fase 3). 10 folder di `skills/` adalah karya
+Muse untuk motumona (MIT). 73 folder di `upstream/` adalah karya penulis lain
 yang didistribusikan ulang sesuai lisensinya — lisensi + copyright asli
 dipertahankan di tiap folder. Repo ini BUKAN mengklaim karya upstream
 sebagai karya motumona.
+
+Perhatian fase 3: 22 folder fase 3 (6 upstream tanpa lisensi di file lokal +
+16 asal tidak jelas) diunggah dengan atribusi sejauh yang diketahui dari audit
+19 Nov 2026; lisensinya BELUM terverifikasi — lihat bagian "Fase 3" di bawah.
+Jangan anggap folder-folder itu karya motumona.
 
 ## Karya sendiri (`skills/`, MIT — copyright motumona)
 
@@ -84,7 +89,43 @@ push teks dan diunggah terpisah lewat web UI GitHub ke path yang sama:
 `.png` di `upstream/superpowers/assets/`, dan `theme-showcase.pdf` di
 `upstream/theme-factory/`.
 
-## Yang belum masuk (fase berikutnya)
+## Fase 3 — upstream diketahui, lisensi TIDAK ada di file lokal (C, 6 folder)
 
-- Fase 3: 22 folder yang lisensi/asalnya belum terverifikasi
-  (6 upstream tanpa lisensi di file lokal + 16 asal tidak jelas).
+Upstream diketahui dari audit 19 Nov 2026, tapi tidak ada file lisensi di
+folder lokal — lisensi belum terverifikasi. Bukan karya motumona.
+
+- `agent-browser` — vercel-labs/agent-browser (stub upstream) — lisensi belum terverifikasi, tidak ada file lisensi di folder
+- `binance-agentic-wallet` — github.com/binance/binance-skills-hub (resmi Binance) — lisensi belum terverifikasi, tidak ada file lisensi di folder
+- `bountyforge` — github.com/Gabson0x/bountyforge (v3.1.0) — MIT di `skills/pashov/` dan `skills/web3/`; tidak ada file lisensi di root folder
+- `bug-hunting` — github.com/awarexone/Agentic-Bug-Hunter — lisensi belum terverifikasi, tidak ada file lisensi di folder
+- `remotion-skills` — github.com/remotion-dev/skills — lisensi belum terverifikasi, tidak ada file lisensi di folder; direktori `.git/` clone upstream dibuang sebelum upload
+- `vercel-react-best-practices` — kemungkinan vercel-labs/agent-skills (belum terverifikasi) — lisensi belum terverifikasi, tidak ada file lisensi di folder
+
+## Fase 3 — asal tidak jelas (E, 16 folder)
+
+Tidak ada file lisensi, tidak ada URL upstream, tidak ada penanda Muse di
+`SKILL.md` — asal tidak jelas, lisensi belum terverifikasi. Bukan karya
+motumona.
+
+- `blocked_task_honesty` — asal tidak jelas, lisensi belum terverifikasi
+- `code-review-and-quality` — asal tidak jelas, lisensi belum terverifikasi
+- `context-engineering` — asal tidak jelas, lisensi belum terverifikasi
+- `debugging-and-error-recovery` — asal tidak jelas, lisensi belum terverifikasi
+- `doubt-driven-development` — asal tidak jelas, lisensi belum terverifikasi
+- `find-skills` — asal tidak jelas (menyebut Anthropic, tanpa lisensi), lisensi belum terverifikasi
+- `git-workflow-and-versioning` — asal tidak jelas, lisensi belum terverifikasi
+- `incremental-implementation` — asal tidak jelas, lisensi belum terverifikasi
+- `karpathy-guidelines` — asal tidak jelas, lisensi belum terverifikasi
+- `planning-and-task-breakdown` — asal tidak jelas, lisensi belum terverifikasi
+- `sc-audit` — asal tidak jelas, lisensi belum terverifikasi
+- `security-audit` — asal tidak jelas, lisensi belum terverifikasi
+- `source-driven-development` — asal tidak jelas, lisensi belum terverifikasi
+- `spec-driven-development` — asal tidak jelas, lisensi belum terverifikasi
+- `test-driven-development` — asal tidak jelas, lisensi belum terverifikasi
+- `using-agent-skills` — asal tidak jelas, lisensi belum terverifikasi
+
+## Aset biner fase 3 (pending upload web UI)
+
+3 file GIF di `upstream/bountyforge/skills/pashov/static/` (`fizz.gif`,
+`skill_pag.gif`, `x_ray.gif`, masing-masing >1 MB) tidak bisa dikirim lewat
+push teks dan diunggah terpisah lewat web UI GitHub ke path yang sama.

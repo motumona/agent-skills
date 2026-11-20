@@ -4,7 +4,7 @@
 > bug bounty, trading, penulisan akademik, Web3/Agentic wallet, dan
 > workflow sehari-hari. Dipakai harian oleh Muse untuk @motumona.
 
-Snapshot: 20 November 2026. Fase 1 + fase 2: 61 folder, 330 file `SKILL.md`.
+Snapshot: 21 November 2026. Fase 1 + fase 2 + fase 3: 83 folder, 391 file `SKILL.md`.
 
 ## Cara pakai
 
@@ -78,6 +78,28 @@ Snapshot: 20 November 2026. Fase 1 + fase 2: 61 folder, 330 file `SKILL.md`.
 | `pentest-agents` | Hub / adaptasi | Hub oleh Muse untuk motumona; konten H-mmer/pentest-agents | lihat folder | 14 |
 | `trailofbits-skills` | Hub / adaptasi | Hub oleh Muse untuk motumona; konten trailofbits/skills (CC-BY-SA-4.0) | CC-BY-SA-4.0 | 11 |
 | `trailofbits-skills-curated` | Hub / adaptasi | Hub oleh Muse untuk motumona; konten trailofbits/skills-curated (CC-BY-SA-4.0) | CC-BY-SA-4.0 | 4 |
+| `agent-browser` | Upstream (fase 3) | vercel-labs/agent-browser (stub upstream) | belum terverifikasi (tidak ada file lisensi lokal) | 1 |
+| `binance-agentic-wallet` | Upstream (fase 3) | Binance — github.com/binance/binance-skills-hub (resmi) | belum terverifikasi (tidak ada file lisensi lokal) | 1 |
+| `bountyforge` | Upstream (fase 3) | Gabson0x/bountyforge (v3.1.0) | MIT di `skills/pashov/` dan `skills/web3/`; tidak ada file lisensi di root | 27 |
+| `bug-hunting` | Upstream (fase 3) | Awarexone/Agentic-Bug-Hunter | belum terverifikasi (tidak ada file lisensi lokal) | 1 |
+| `remotion-skills` | Upstream (fase 3) | remotion-dev/skills | belum terverifikasi (tidak ada file lisensi lokal) | 14 |
+| `vercel-react-best-practices` | Upstream (fase 3) | kemungkinan vercel-labs/agent-skills (belum terverifikasi) | belum terverifikasi (tidak ada file lisensi lokal) | 1 |
+| `blocked_task_honesty` | Upstream (fase 3) | asal tidak jelas | belum terverifikasi | 1 |
+| `code-review-and-quality` | Upstream (fase 3) | asal tidak jelas | belum terverifikasi | 1 |
+| `context-engineering` | Upstream (fase 3) | asal tidak jelas | belum terverifikasi | 1 |
+| `debugging-and-error-recovery` | Upstream (fase 3) | asal tidak jelas | belum terverifikasi | 1 |
+| `doubt-driven-development` | Upstream (fase 3) | asal tidak jelas | belum terverifikasi | 1 |
+| `find-skills` | Upstream (fase 3) | asal tidak jelas (menyebut Anthropic, tanpa lisensi) | belum terverifikasi | 1 |
+| `git-workflow-and-versioning` | Upstream (fase 3) | asal tidak jelas | belum terverifikasi | 1 |
+| `incremental-implementation` | Upstream (fase 3) | asal tidak jelas | belum terverifikasi | 1 |
+| `karpathy-guidelines` | Upstream (fase 3) | asal tidak jelas | belum terverifikasi | 1 |
+| `planning-and-task-breakdown` | Upstream (fase 3) | asal tidak jelas | belum terverifikasi | 1 |
+| `sc-audit` | Upstream (fase 3) | asal tidak jelas | belum terverifikasi | 1 |
+| `security-audit` | Upstream (fase 3) | asal tidak jelas | belum terverifikasi | 1 |
+| `source-driven-development` | Upstream (fase 3) | asal tidak jelas | belum terverifikasi | 1 |
+| `spec-driven-development` | Upstream (fase 3) | asal tidak jelas | belum terverifikasi | 1 |
+| `test-driven-development` | Upstream (fase 3) | asal tidak jelas | belum terverifikasi | 1 |
+| `using-agent-skills` | Upstream (fase 3) | asal tidak jelas | belum terverifikasi | 1 |
 
 ## Karya sendiri vs upstream
 

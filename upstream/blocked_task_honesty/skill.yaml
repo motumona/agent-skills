@@ -1,0 +1,21 @@
+name: blocked_task_honesty
+title: Say clearly when a task is blocked
+description: Say plainly that a task cannot be done, and what the user must do instead, when a site or capability blocks it.
+category: Work and knowledge
+include_in_prompt: false
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - MEMORY.md ATURAN TEGAS 2026-11-11
+  - MEMORY.md vAPI check-in TIDAK BISA 2026-11-11
+  - chunk_handoff Syqora saga and browser-permission saga
+  measurement:
+    proxy_metric_id: objective_success_rate
+    success_criterion: In 30 days, sampled blocked-task turns show a plain cannot statement after at most two same-kind failures, no redirect to an unverified channel, and no settings path given from memory.
+    window_days: 30
+  needs_review: false
+  rationale: 'Three incidents in the 2026-11-11 to 2026-11-12 window share one mechanism, and no managed skill covers it. Syqora registration failed about 9 times on a bot check while the user was bounced between WhatsApp, the Muse app, Chrome and the Play Store, ending in the explicit ATURAN TEGAS order in MEMORY.md. A vAPI check-in was first promised as doable and then admitted impossible the same day. A recurring browser permission card drew three guessed settings paths that were all wrong. A skill search returned no relevant skill. The Web3 execution skill covers capability audits only for transactions and is not managed by this loop. Rejected candidates: the EF bounty-window timing error belongs in the unmanaged bug-hunting skill. The Bitget 401 is a one-off on an unmanaged connector doc, parked pending a fresh link. The Prism Star Growth Point slip was one-off and already corrected in cron text and MEMORY. The Telegram X-mission click-only rule was applied successfully once and stays in MEMORY. The memory objective recurring failures are system-prompt mechanics out of scope for this loop.'
+  review_after: 2026-12-12T07:05:43.526237+00:00
+  reviewed_at: 2026-11-12T07:05:43.526237+00:00
+  run_id: sirun_2f77f33fb2aa4edaadfeb5de0be4c55c
