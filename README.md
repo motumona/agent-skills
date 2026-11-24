@@ -4,7 +4,7 @@
 > bug bounty, trading, penulisan akademik, Web3/Agentic wallet, dan
 > workflow sehari-hari. Dipakai harian oleh Muse untuk @motumona.
 
-Snapshot: 21 November 2026. Fase 1 + fase 2 + fase 3 + susulan 21 Nov: 86 folder, 394 file `SKILL.md`.
+Snapshot: 24 November 2026. Fase 1 + fase 2 + fase 3 + susulan 21 Nov + susulan 23–24 Nov: 88 folder, 397 file `SKILL.md`.
 
 ## Cara pakai
 
@@ -33,10 +33,12 @@ Snapshot: 21 November 2026. Fase 1 + fase 2 + fase 3 + susulan 21 Nov: 86 folder
 | `academic-writing` | Upstream | Joe Amditis | MIT | 1 |
 | `agentic-bug-hunter` | Upstream | Claude Bug Bounty Hunter Contributors (Awarexone/Agentic-Bug-Hunter) | MIT | 21 |
 | `agiprolabs-trading-skills` | Upstream | AGIPro (agiprolabs/claude-trading-skills) | MIT | 29 |
+| `blockchain-defi` | Upstream (susulan 23 Nov) | j4flmao/agent-skills | MIT | 1 |
 | `blockchain-forensics` | Upstream | forefy | MIT | 1 |
+| `blockchain-security` | Upstream (susulan 23 Nov) | j4flmao/agent-skills | MIT | 1 |
 | `browser-automation` | Upstream | Alireza Rezvani | MIT | 1 |
 | `bug-bounty-triage` | Upstream | lihat file LICENSE di folder | MIT | 1 |
-| `bugskill-ai` | Upstream | SecurityTalent | MIT | 3 |
+| `bugskill-ai` | Upstream + hub lokal | SecurityTalent + hub oleh Muse untuk motumona | MIT | 4 |
 | `citation-management` | Upstream | K-Dense Inc. | MIT | 1 |
 | `citation-verification` | Upstream | Gaorui Zhang | MIT | 1 |
 | `crypto-research` | Upstream | CoinMarketCap | MIT | 1 |
@@ -50,7 +52,7 @@ Snapshot: 21 November 2026. Fase 1 + fase 2 + fase 3 + susulan 21 Nov: 86 folder
 | `humanizer` | Upstream | lihat file LICENSE di folder | MIT | 1 |
 | `indo-journal-scouting` | Upstream | Mahdy Arief (mahdyarief) | MIT | 1 |
 | `last30days` | Upstream | mvanhorn/last30days-skill | MIT | 1 |
-| `make-fun` | Upstream (susulan 21 Nov) | make.fun / EZO Labs Inc. (make.fun/skill.md) | MIT | 1 |
+| `make-fun` | Upstream (susulan 21 Nov, v1.5.274) | make.fun / EZO Labs Inc. (make.fun/skill.md) | MIT | 1 |
 | `market-report` | Upstream | CoinMarketCap | MIT | 1 |
 | `mcp-builder` | Upstream | Anthropic (anthropics/skills) | Apache-2.0 | 1 |
 | `mcp-server-pentest` | Upstream | forefy | MIT | 1 |
